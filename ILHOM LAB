@@ -18,7 +18,7 @@ int main( int argc, char* args[]){
     cin >> h;
 
     for( double x = a; x <= b; x+=h){
-        cout << " x = " << x << " f(x) = " << defineOne(x) << "\n";
+        cout << " x = " << x << " f(x) = " << defineTwo(x) << "\n";
     }
     
     return 0;
